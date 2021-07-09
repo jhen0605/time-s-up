@@ -13,6 +13,9 @@
 		A7ED5FE6267B5BBF007CBC1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7ED5FE4267B5BBF007CBC1C /* Main.storyboard */; };
 		A7ED5FE8267B5BC0007CBC1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7ED5FE7267B5BC0007CBC1C /* Assets.xcassets */; };
 		A7ED5FEB267B5BC0007CBC1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7ED5FE9267B5BC0007CBC1C /* LaunchScreen.storyboard */; };
+		A7ED5FF9267B5C70007CBC1C /* CALayer+borderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A7ED5FF8267B5C70007CBC1C /* CALayer+borderColor.m */; };
+		A7ED5FFB267B5E87007CBC1C /* RiiT_F.otf in Resources */ = {isa = PBXBuildFile; fileRef = A7ED5FFA267B5E87007CBC1C /* RiiT_F.otf */; };
+		A7ED5FFD267B5E8F007CBC1C /* 清松手寫體2jas.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7ED5FFC267B5E8F007CBC1C /* 清松手寫體2jas.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,11 @@
 		A7ED5FE7267B5BC0007CBC1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7ED5FEA267B5BC0007CBC1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7ED5FEC267B5BC0007CBC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7ED5FF6267B5C70007CBC1C /* time's up-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "time's up-Bridging-Header.h"; sourceTree = "<group>"; };
+		A7ED5FF7267B5C70007CBC1C /* CALayer+borderColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+borderColor.h"; sourceTree = "<group>"; };
+		A7ED5FF8267B5C70007CBC1C /* CALayer+borderColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+borderColor.m"; sourceTree = "<group>"; };
+		A7ED5FFA267B5E87007CBC1C /* RiiT_F.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RiiT_F.otf; path = "../../../Downloads/字型/Rii Tf可愛字體/RiiT_F.otf"; sourceTree = "<group>"; };
+		A7ED5FFC267B5E8F007CBC1C /* 清松手寫體2jas.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "清松手寫體2jas.ttf"; path = "../../../Downloads/字型/清松手寫體2jas.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,8 +48,11 @@
 		A7ED5FD2267B5BBF007CBC1C = {
 			isa = PBXGroup;
 			children = (
+				A7ED5FF7267B5C70007CBC1C /* CALayer+borderColor.h */,
+				A7ED5FF8267B5C70007CBC1C /* CALayer+borderColor.m */,
 				A7ED5FDD267B5BBF007CBC1C /* time's up */,
 				A7ED5FDC267B5BBF007CBC1C /* Products */,
+				A7ED5FF6267B5C70007CBC1C /* time's up-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +67,8 @@
 		A7ED5FDD267B5BBF007CBC1C /* time's up */ = {
 			isa = PBXGroup;
 			children = (
+				A7ED5FFC267B5E8F007CBC1C /* 清松手寫體2jas.ttf */,
+				A7ED5FFA267B5E87007CBC1C /* RiiT_F.otf */,
 				A7ED5FDE267B5BBF007CBC1C /* AppDelegate.swift */,
 				A7ED5FE0267B5BBF007CBC1C /* SceneDelegate.swift */,
 				A7ED5FE2267B5BBF007CBC1C /* ViewController.swift */,
@@ -98,6 +111,7 @@
 				TargetAttributes = {
 					A7ED5FDA267B5BBF007CBC1C = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -126,7 +140,9 @@
 			files = (
 				A7ED5FEB267B5BC0007CBC1C /* LaunchScreen.storyboard in Resources */,
 				A7ED5FE8267B5BC0007CBC1C /* Assets.xcassets in Resources */,
+				A7ED5FFB267B5E87007CBC1C /* RiiT_F.otf in Resources */,
 				A7ED5FE6267B5BBF007CBC1C /* Main.storyboard in Resources */,
+				A7ED5FFD267B5E8F007CBC1C /* 清松手寫體2jas.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7ED5FE3267B5BBF007CBC1C /* ViewController.swift in Sources */,
+				A7ED5FF9267B5C70007CBC1C /* CALayer+borderColor.m in Sources */,
 				A7ED5FDF267B5BBF007CBC1C /* AppDelegate.swift in Sources */,
 				A7ED5FE1267B5BBF007CBC1C /* SceneDelegate.swift in Sources */,
 			);
@@ -286,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA34G25776;
 				INFOPLIST_FILE = "time's up/Info.plist";
@@ -295,6 +313,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jhen.tw.time-s-up";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "time's up-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA34G25776;
 				INFOPLIST_FILE = "time's up/Info.plist";
@@ -314,6 +335,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jhen.tw.time-s-up";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "time's up-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
